@@ -1,0 +1,17 @@
+To access CMD in OOBE press Shift + F10 to access command prompt  (function key might be needed on notebooks as well.)
+
+Commands:
+systemreset --factoryreset
+
+Open an elevated/administrator command prompt.
+# to view users in a local group:
+
+Type net localgroup groupname
+
+# to add a local group to your computer:
+net localgroup groupname /add
+net localgroup administrators /add "AzureAD\janhunar"
+
+# to remove
+net localgroup groupname username /delete
+net localgroup administrators /delete "AzureAD\user@sewio.net"
