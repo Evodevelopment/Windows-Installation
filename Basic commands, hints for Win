@@ -15,3 +15,9 @@ net localgroup administrators /add "AzureAD\janhunar"
 # to remove
 net localgroup groupname username /delete
 net localgroup administrators /delete "AzureAD\user@sewio.net"
+
+shutdown /s	Shut down PC immediately
+shutdown /a	Abort shutdown
+shutdown /r	Restart computer
+shutdown /l	Log off current user
+shutdown /f	Force shutdown: forces the running application to close (the user receives no advance warning)
