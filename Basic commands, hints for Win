@@ -21,3 +21,5 @@ shutdown /a	Abort shutdown
 shutdown /r	Restart computer
 shutdown /l	Log off current user
 shutdown /f	Force shutdown: forces the running application to close (the user receives no advance warning)
+
+can be done via python script as well
