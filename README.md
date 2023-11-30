@@ -2,5 +2,4 @@
 
 Windebloat.ps1 - basic script on how to debloat Windows
 
-
 'Batch file to software installation'
